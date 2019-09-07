@@ -1,0 +1,58 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@myng/*": ["libs/*"],
+      "@default/*": ["apps/conduit/src/app/*"],
+      "@env/*": ["apps/conduit/src/environments/*"],
+      "@myng/api": ["libs/api/src/index.ts"],
+      "@myng/article": [
+        "libs/article/src/index.ts"
+      ],
+      "@myng/article-list": [
+        "libs/article-list/src/index.ts"
+      ],
+      "@myng/auth": ["libs/auth/src/index.ts"],
+      "@myng/editor": [
+        "libs/editor/src/index.ts"
+      ],
+      "@myng/home": ["libs/home/src/index.ts"],
+      "@myng/ngrx-error": [
+        "libs/ngrx-error/src/index.ts"
+      ],
+      "@myng/ngrx-forms": [
+        "libs/ngrx-forms/src/index.ts"
+      ],
+      "@myng/profile": [
+        "libs/profile/src/index.ts"
+      ],
+      "@myng/ngrx-router": [
+        "libs/ngrx-router/src/index.ts"
+      ],
+      "@myng/settings": [
+        "libs/settings/src/index.ts"
+      ],
+      "@myng/shared": [
+        "libs/shared/src/index.ts"
+      ],
+      "@myng/contacts": [
+        "libs/contacts/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
